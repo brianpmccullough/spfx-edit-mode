@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-edit-mode-client-side-solution",
+    "id": "00cb051d-1f91-4ffc-a73e-f5c82131685e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-edit-mode description"
+      },
+      "longDescription": {
+        "default": "spfx-edit-mode description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-edit-mode Feature",
+        "description": "The feature that activates elements of the spfx-edit-mode solution.",
+        "id": "741ec90d-8241-43a9-bdce-fd92bd19cc24",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-edit-mode.sppkg"
+  }
+}
